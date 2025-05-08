@@ -65,6 +65,32 @@
       color: #2e7dff;
       text-decoration: none;
     }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f3f4f6;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .call-button {
+      padding: 20px 40px;
+      font-size: 24px;
+      background-color: #2d89ef;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .call-button:hover {
+      background-color: #1b6bd6;
+    }
   </style>
   <script>
     function autoDial() {
@@ -94,10 +120,9 @@
 
     <p>Your reliable guide for payment app issues</p>
   </header>
- <a href="tel:18887688944">
-  <button style="padding: 12px 24px; font-size: 16px; background-color: #2d89ef; color: white; border: none; border-radius: 8px; cursor: pointer;">
-    Call Toll-Free Now
-  </button>
+<a href="tel:18887688944" class="call-button">
+    📞 Call Toll-Free Now
+  </a>
   <main>
     <section class="section">
       <h2>Having trouble with mobile payment services?</h2>
